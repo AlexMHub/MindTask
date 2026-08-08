@@ -8,8 +8,8 @@
   --border: #e1e0d9;
   --baseline: #c3c2b7;
 
-  --occupied: #2a78d6;
-  --available: #86b6ef;
+  --occupied: #17382a;
+  --available: #7fa895;
 
   --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
@@ -34,8 +34,8 @@
     --border: #2c2c2a;
     --baseline: #383835;
 
-    --occupied: #3987e5;
-    --available: #104281;
+    --occupied: #17382a;
+    --available: #7fa895;
   }
 }
 
@@ -47,7 +47,9 @@ body {
   margin: 0;
 }
 
-h1,
+h1{
+  color:#17382a;
+}
 h2,
 h3 {
   color: var(--text-primary);
